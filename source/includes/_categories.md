@@ -88,7 +88,7 @@ Use this endpoint to create a single category
 Parameter           | Type    | Required   | Default   | Description
 ----------          | ------  | ---------- | --------- | ------------
 name                | string  | true       | -         | Name of category. Must be between 1 and 40 characters.
-description         | string  | false      | -         | Description of category. Must be less than 140 categories.
+description         | string  | false      | -         | Description of category. Must be less than 140 characters.
 is_income           | boolean | false      | false     | Whether or not transactions in this category should be treated as income.
 exclude_from_budget | boolean | false      | false     | Whether or not transactions in this category should be excluded from budgets.
 exclude_from_totals | boolean | false      | false     | Whether or not transactions in this category should be excluded from calculated totals.
